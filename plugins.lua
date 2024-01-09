@@ -41,13 +41,10 @@ local plugins = {
     "lewis6991/gitsigns.nvim",
     opts = overrides.gitsigns,
   },
-  -- Install a plugin
   {
-    "max397574/better-escape.nvim",
-    event = "InsertEnter",
-    config = function()
-      require("better_escape").setup()
-    end,
+    "folke/zen-mode.nvim",
+    opts = {},
+    lazy = false,
   },
 }
 

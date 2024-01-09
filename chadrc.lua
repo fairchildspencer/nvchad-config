@@ -14,6 +14,9 @@ M.ui = {
   nvdash = {
     load_on_startup = true,
   },
+  tabufline = {
+    enabled = true,
+  },
 }
 
 M.plugins = "custom.plugins"
